@@ -4,7 +4,9 @@
     --jobs-block-content: 1286px
 }
 
-
+body{
+    /* overflow-y: hidden; */
+}
 
 
 
@@ -46,6 +48,7 @@ a {
     background-color: rgb(255, 125, 85) !important;
     border: rgb(255, 125, 85) !important;
     font-weight: 500;
+    white-space: nowrap;
  }
  .search-btn:hover{
     
@@ -220,7 +223,7 @@ a {
 
 
 .job__item {
-    width: calc((var(--jobs-block-content) - 16px * 2) / 3);
+    /* width: calc((100% - 16px * 2) / 3); */
     display: flex;
     align-items: center;
     gap: 8px;
@@ -340,37 +343,87 @@ a {
 
 
   /* // Small devices (landscape phones, 576px and up) */
-  @media (max-width: 576px) { 
-    :root{
-        --jobs-block-content: 100%*3 +2px
-
-    }
+  /* @media (max-width: 576px) { 
     .filter-bar {
        flex-direction: column;
        gap: 8px;
+    }
+    .left-bar{
+        flex-wrap: wrap;
     }
 
     .job__item {
         width: 100%;
     }
    }
-  
+   */
   /* // Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) { 
+  @media (max-width: 768px) { 
 
    }
   
-  /* // Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) { 
-
-   }
+  /* // Large devices (desktops, 992px and up)
+  @media (max-width: 992px) { 
+    
+    .job__item {
+        width: calc(100%/2 -16px);
+    }
+   } */
   
   /* // X-Large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) { 
+  /* @media (max-width: 1200px) { 
+    
+    .job__item {
+        width: calc(100%/3 -16px*2);
+    }
+   } */
+  
+
+  /* // XX-Large devices (larger desktops, 1400px and up) */
+  @media (max-width: 1400px) { 
 
    }
-  
-  /* // XX-Large devices (larger desktops, 1400px and up) */
-  @media (min-width: 1400px) { 
 
+
+ @media only screen and  (max-width: 576px){
+    .job__item {
+        width: calc(100%);
+    }
+    
+    .left-bar{
+        flex-wrap: wrap;
+    }
+ }
+   @media only screen and (max-width: 767px) {
+
+    .job__item {
+        width: calc(100%);
+    }
+    
+    .left-bar{
+        flex-wrap: wrap;
+    }
+   }
+
+   @media only screen and (min-width: 768px) {
+
+    .job__item {
+        width: calc(100%/2 );
+    }
+
+   }
+
+
+   @media only screen and (min-width: 992px){
+    .job__item {
+        width: calc(100%/2 - 16px/2);
+    }
+
+
+   }
+
+   @media only screen and (min-width: 1200px){
+    .job__item {
+    width: calc((100% - 16px * 2) / 3);
+    }
    }

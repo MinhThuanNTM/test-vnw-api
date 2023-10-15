@@ -351,6 +351,7 @@ const checkThis = (x) => {
 
 const sliderBar = document.querySelector('.slider-bar')
 const slide = document.querySelector('.jobs__block')
+let jobsItemWith 
 const dotsSlider = sliderBar.querySelector('.dots')
 
 
@@ -358,11 +359,12 @@ const dotsSlider = sliderBar.querySelector('.dots')
 let curSlide = 0;
 let maxSlide = 0
 const createDots = function () {
+    jobsItemWith = slide.getElementsByClassName('job__item').item(0).offsetWidth  
     maxSlide = (currentJobsTotal / 3 ).toFixed(0);
     dotsSlider.innerHTML = ''
     for (let i = 0; i < maxSlide; i++) {
         dotsSlider.innerHTML +=
-            `<button class="dots__dot" data-slide="${i}"></button>`
+            `<button class="dots__dot" onclick="goToSlide(${i})" data-slide="${i}"></button>`
     }
 
     init();
@@ -380,7 +382,9 @@ const activateDot = function (slide) {
 
 
 const goToSlide = function (slideNum) {
-    slide.style.transform = `translateX(${-(418 + 16) * slideNum}px)`
+    slide.style.transform = `translateX(${-(jobsItemWith + 16) * slideNum}px)`
+    curSlide = slideNum
+    activateDot(curSlide)
 };
 
 // Next slide
