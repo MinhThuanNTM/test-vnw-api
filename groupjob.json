@@ -1,0 +1,382 @@
+[
+    {
+        "groupJobFunctionV3Id": 0,
+        "groupJobFunctionV3Name": "",
+        "groupJobFunctionV3NameVI": "",
+        "children": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 3,
+        "groupJobFunctionV3Name": "Agriculture/Livestock/Fishery",
+        "groupJobFunctionV3NameVI": "Nông/Lâm/Ngư Nghiệp",
+        "children": [
+            17
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 18,
+        "groupJobFunctionV3Name": "Art, Media & Printing/Publishing",
+        "groupJobFunctionV3NameVI": "Nghệ thuật, Truyền thông/In ấn/Xuất bản",
+        "children": [
+            112,
+            113,
+            114
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 30,
+        "groupJobFunctionV3Name": "Others",
+        "groupJobFunctionV3NameVI": "Khác",
+        "children": [
+            159
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 15,
+        "groupJobFunctionV3Name": "Hospitality/Tourism",
+        "groupJobFunctionV3NameVI": "Nhà Hàng - Khách Sạn/Du Lịch",
+        "children": [
+            87,
+            88,
+            89,
+            90,
+            91,
+            92
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 11,
+        "groupJobFunctionV3Name": "Food and Beverage",
+        "groupJobFunctionV3NameVI": "Dịch Vụ Ăn Uống",
+        "children": [
+            68,
+            69,
+            70
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 25,
+        "groupJobFunctionV3Name": "Government/NGO",
+        "groupJobFunctionV3NameVI": "Chính Phủ/Phi Lợi Nhuận",
+        "children": [
+            146,
+            147
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 8,
+        "groupJobFunctionV3Name": "Transportation",
+        "groupJobFunctionV3NameVI": "Vận Tải",
+        "children": [
+            46,
+            47,
+            48,
+            49
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 14,
+        "groupJobFunctionV3Name": "Insurance",
+        "groupJobFunctionV3NameVI": "Bảo Hiểm",
+        "children": [
+            83,
+            84,
+            85,
+            86
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 26,
+        "groupJobFunctionV3Name": "Textiles, Garments/Footwear",
+        "groupJobFunctionV3NameVI": "Dệt May/Da Giày",
+        "children": [
+            148,
+            149
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 19,
+        "groupJobFunctionV3Name": "Healthcare/Medical Services",
+        "groupJobFunctionV3NameVI": "Y Tế/Chăm Sóc Sức Khoẻ",
+        "children": [
+            115,
+            116,
+            117,
+            118,
+            119
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 24,
+        "groupJobFunctionV3Name": "Retail/Consumer Products",
+        "groupJobFunctionV3NameVI": "Bán Lẻ/Tiêu Dùng",
+        "children": [
+            142,
+            143,
+            144,
+            145
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 28,
+        "groupJobFunctionV3Name": "Pharmacy",
+        "groupJobFunctionV3NameVI": "Dược",
+        "children": [
+            156
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 22,
+        "groupJobFunctionV3Name": "Technician",
+        "groupJobFunctionV3NameVI": "Kỹ Thuật",
+        "children": [
+            132,
+            133,
+            134,
+            135
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 16,
+        "groupJobFunctionV3Name": "Legal",
+        "groupJobFunctionV3NameVI": "Pháp Lý",
+        "children": [
+            93,
+            94,
+            95,
+            97,
+            98,
+            99,
+            100,
+            101
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 23,
+        "groupJobFunctionV3Name": "Real Estate",
+        "groupJobFunctionV3NameVI": "Bất Động Sản",
+        "children": [
+            136,
+            137,
+            138,
+            139,
+            140,
+            141
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 7,
+        "groupJobFunctionV3Name": "Design",
+        "groupJobFunctionV3NameVI": "Thiết Kế",
+        "children": [
+            42,
+            43,
+            44,
+            45
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 6,
+        "groupJobFunctionV3Name": "Customer Service",
+        "groupJobFunctionV3NameVI": "Dịch Vụ Khách Hàng",
+        "children": [
+            39,
+            40,
+            41
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 29,
+        "groupJobFunctionV3Name": "CEO & General Management",
+        "groupJobFunctionV3NameVI": "CEO & General Management",
+        "children": [
+            157,
+            158
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 9,
+        "groupJobFunctionV3Name": "Engineering & Sciences",
+        "groupJobFunctionV3NameVI": "Khoa Học & Kỹ Thuật",
+        "children": [
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 4,
+        "groupJobFunctionV3Name": "Architecture/Construction",
+        "groupJobFunctionV3NameVI": "Kiến Trúc/Xây Dựng",
+        "children": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 13,
+        "groupJobFunctionV3Name": "Logistics/Import Export/Warehouse",
+        "groupJobFunctionV3NameVI": "Hậu Cần/Xuất Nhập Khẩu/Kho Bãi",
+        "children": [
+            77,
+            78,
+            79,
+            80,
+            81,
+            82
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 1,
+        "groupJobFunctionV3Name": "Academic/Education",
+        "groupJobFunctionV3NameVI": "Giáo Dục",
+        "children": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 12,
+        "groupJobFunctionV3Name": "Human Resources/Recruitment",
+        "groupJobFunctionV3NameVI": "Nhân Sự/Tuyển Dụng",
+        "children": [
+            71,
+            72,
+            73,
+            74,
+            75,
+            76
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 5,
+        "groupJobFunctionV3Name": "Information Technology/Telecommunications",
+        "groupJobFunctionV3NameVI": "Công Nghệ Thông Tin/Viễn Thông",
+        "children": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 10,
+        "groupJobFunctionV3Name": "Banking & Financial Services",
+        "groupJobFunctionV3NameVI": "Ngân Hàng & Dịch Vụ Tài Chính",
+        "children": [
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 17,
+        "groupJobFunctionV3Name": "Marketing, Advertising/Communications",
+        "groupJobFunctionV3NameVI": "Tiếp Thị, Quảng Cáo/Truyền Thông",
+        "children": [
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 20,
+        "groupJobFunctionV3Name": "Administration/Office Support",
+        "groupJobFunctionV3NameVI": "Hành Chính Văn Phòng",
+        "children": [
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 27,
+        "groupJobFunctionV3Name": "Manufacturing",
+        "groupJobFunctionV3NameVI": "Sản Xuất",
+        "children": [
+            150,
+            151,
+            152,
+            153,
+            154,
+            155
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 2,
+        "groupJobFunctionV3Name": "Accounting/Auditing",
+        "groupJobFunctionV3NameVI": "Kế Toán/Kiểm Toán",
+        "children": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+        ]
+    },
+    {
+        "groupJobFunctionV3Id": 21,
+        "groupJobFunctionV3Name": "Sales",
+        "groupJobFunctionV3NameVI": "Kinh Doanh",
+        "children": [
+            129,
+            130,
+            131
+        ]
+    }
+]

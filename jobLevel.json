@@ -1,0 +1,27 @@
+[
+    {
+        "jobLevelId": 7,
+        "jobLevel": "Manager",
+        "jobLevelVI": "Trưởng phòng"
+    },
+    {
+        "jobLevelId": 5,
+        "jobLevel": "Experienced (non-manager)",
+        "jobLevelVI": "Nhân viên"
+    },
+    {
+        "jobLevelId": 1,
+        "jobLevel": "Fresher/Entry level",
+        "jobLevelVI": "Mới Tốt Nghiệp"
+    },
+    {
+        "jobLevelId": 3,
+        "jobLevel": "Director and above",
+        "jobLevelVI": "Giám Đốc và Cấp Cao Hơn"
+    },
+    {
+        "jobLevelId": 8,
+        "jobLevel": "Intern/Student",
+        "jobLevelVI": "Thực tập sinh/Sinh viên"
+    }
+]

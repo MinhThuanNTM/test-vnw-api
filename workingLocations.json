@@ -1,0 +1,317 @@
+[
+    {
+        "cityId": 19,
+        "cityName": "Dong Nai",
+        "cityNameVI": "Đồng Nai"
+    },
+    {
+        "cityId": 29,
+        "cityName": "Ho Chi Minh",
+        "cityNameVI": "Hồ Chí Minh"
+    },
+    {
+        "cityId": 24,
+        "cityName": "Ha Noi",
+        "cityNameVI": "Hà Nội"
+    },
+    {
+        "cityId": 28,
+        "cityName": "Hai Phong",
+        "cityNameVI": "Hải Phòng"
+    },
+    {
+        "cityId": 57,
+        "cityName": "Thua Thien Hue",
+        "cityNameVI": "Thừa Thiên Huế"
+    },
+    {
+        "cityId": 11,
+        "cityName": "Binh Duong",
+        "cityNameVI": "Bình Dương"
+    },
+    {
+        "cityId": 5,
+        "cityName": "Bac Giang",
+        "cityNameVI": "Bắc Giang"
+    },
+    {
+        "cityId": 36,
+        "cityName": "Lam Dong",
+        "cityNameVI": "Lâm Đồng"
+    },
+    {
+        "cityId": 3,
+        "cityName": "Ba Ria - Vung Tau",
+        "cityNameVI": "Bà Rịa - Vũng Tàu"
+    },
+    {
+        "cityId": 32,
+        "cityName": "Hung Yen",
+        "cityNameVI": "Hưng Yên"
+    },
+    {
+        "cityId": 10,
+        "cityName": "Binh Dinh",
+        "cityNameVI": "Bình Định"
+    },
+    {
+        "cityId": 58,
+        "cityName": "Tien Giang",
+        "cityNameVI": "Tiền Giang"
+    },
+    {
+        "cityId": 49,
+        "cityName": "Quang Ninh",
+        "cityNameVI": "Quảng Ninh"
+    },
+    {
+        "cityId": 41,
+        "cityName": "Nghe An",
+        "cityNameVI": "Nghệ An"
+    },
+    {
+        "cityId": 27,
+        "cityName": "Hai Duong",
+        "cityNameVI": "Hải Dương"
+    },
+    {
+        "cityId": 17,
+        "cityName": "Da Nang",
+        "cityNameVI": "Đà Nẵng"
+    },
+    {
+        "cityId": 48,
+        "cityName": "Quang Ngai",
+        "cityNameVI": "Quảng Ngãi"
+    },
+    {
+        "cityId": 39,
+        "cityName": "Long An",
+        "cityNameVI": "Long An"
+    },
+    {
+        "cityId": 7,
+        "cityName": "Bac Ninh",
+        "cityNameVI": "Bắc Ninh"
+    },
+    {
+        "cityId": 21,
+        "cityName": "Gia Lai",
+        "cityNameVI": "Gia Lai"
+    },
+    {
+        "cityId": 23,
+        "cityName": "Ha Nam",
+        "cityNameVI": "Hà Nam"
+    },
+    {
+        "cityId": 70,
+        "cityName": "International",
+        "cityNameVI": "Quốc tế"
+    },
+    {
+        "cityId": 63,
+        "cityName": "Vinh Phuc",
+        "cityNameVI": "Vĩnh Phúc"
+    },
+    {
+        "cityId": 53,
+        "cityName": "Tay Ninh",
+        "cityNameVI": "Tây Ninh"
+    },
+    {
+        "cityId": 26,
+        "cityName": "Ha Tinh",
+        "cityNameVI": "Hà Tĩnh"
+    },
+    {
+        "cityId": 61,
+        "cityName": "Kien Giang",
+        "cityNameVI": "Kiên Giang"
+    },
+    {
+        "cityId": 8,
+        "cityName": "Ben Tre",
+        "cityNameVI": "Bến Tre"
+    },
+    {
+        "cityId": 47,
+        "cityName": "Quang Nam",
+        "cityNameVI": "Quảng Nam"
+    },
+    {
+        "cityId": 15,
+        "cityName": "Can Tho",
+        "cityNameVI": "Cần Thơ"
+    },
+    {
+        "cityId": 33,
+        "cityName": "Khanh Hoa",
+        "cityNameVI": "Khánh Hòa"
+    },
+    {
+        "cityId": 13,
+        "cityName": "Binh Thuan",
+        "cityNameVI": "Bình Thuận"
+    },
+    {
+        "cityId": 59,
+        "cityName": "Tra Vinh",
+        "cityNameVI": "Trà Vinh"
+    },
+    {
+        "cityId": 42,
+        "cityName": "Ninh Binh",
+        "cityNameVI": "Ninh Bình"
+    },
+    {
+        "cityId": 50,
+        "cityName": "Quang Tri",
+        "cityNameVI": "Quảng Trị"
+    },
+    {
+        "cityId": 56,
+        "cityName": "Thanh Hoa",
+        "cityNameVI": "Thanh Hóa"
+    },
+    {
+        "cityId": 43,
+        "cityName": "Ninh Thuan",
+        "cityNameVI": "Ninh Thuận"
+    },
+    {
+        "cityId": 44,
+        "cityName": "Phu Tho",
+        "cityNameVI": "Phú Thọ"
+    },
+    {
+        "cityId": 72,
+        "cityName": "Hau Giang",
+        "cityNameVI": "Hậu Giang"
+    },
+    {
+        "cityId": 40,
+        "cityName": "Nam Dinh",
+        "cityNameVI": "Nam Định"
+    },
+    {
+        "cityId": 55,
+        "cityName": "Thai Nguyen",
+        "cityNameVI": "Thái Nguyên"
+    },
+    {
+        "cityId": 45,
+        "cityName": "Phu Yen",
+        "cityNameVI": "Phú Yên"
+    },
+    {
+        "cityId": 18,
+        "cityName": "Dak Lak",
+        "cityNameVI": "Đắk Lắk"
+    },
+    {
+        "cityId": 46,
+        "cityName": "Quang Binh",
+        "cityNameVI": "Quảng Bình"
+    },
+    {
+        "cityId": 62,
+        "cityName": "Vinh Long",
+        "cityNameVI": "Vĩnh Long"
+    },
+    {
+        "cityId": 37,
+        "cityName": "Lang Son",
+        "cityNameVI": "Lạng Sơn"
+    },
+    {
+        "cityId": 22,
+        "cityName": "Ha Giang",
+        "cityNameVI": "Hà Giang"
+    },
+    {
+        "cityId": 30,
+        "cityName": "Hoa Binh",
+        "cityNameVI": "Hòa Bình"
+    },
+    {
+        "cityId": 2,
+        "cityName": "An Giang",
+        "cityNameVI": "An Giang"
+    },
+    {
+        "cityId": 38,
+        "cityName": "Lao Cai",
+        "cityNameVI": "Lào Cai"
+    },
+    {
+        "cityId": 54,
+        "cityName": "Thai Binh",
+        "cityNameVI": "Thái Bình"
+    },
+    {
+        "cityId": 14,
+        "cityName": "Ca Mau",
+        "cityNameVI": "Cà Mau"
+    },
+    {
+        "cityId": 66,
+        "cityName": "Other",
+        "cityNameVI": "Khác"
+    },
+    {
+        "cityId": 69,
+        "cityName": "Dien Bien",
+        "cityNameVI": "Điện Biên"
+    },
+    {
+        "cityId": 52,
+        "cityName": "Son La",
+        "cityNameVI": "Sơn La"
+    },
+    {
+        "cityId": 60,
+        "cityName": "Tuyen Quang",
+        "cityNameVI": "Tuyên Quang"
+    },
+    {
+        "cityId": 65,
+        "cityName": "Yen Bai",
+        "cityNameVI": "Yên Bái"
+    },
+    {
+        "cityId": 4,
+        "cityName": "Bac Kan",
+        "cityNameVI": "Bắc Kạn"
+    },
+    {
+        "cityId": 6,
+        "cityName": "Bac Lieu",
+        "cityNameVI": "Bạc Liêu"
+    },
+    {
+        "cityId": 20,
+        "cityName": "Dong Thap",
+        "cityNameVI": "Đồng Tháp"
+    },
+    {
+        "cityId": 71,
+        "cityName": "Mekong Delta",
+        "cityNameVI": "ĐBSCL"
+    },
+    {
+        "cityId": 12,
+        "cityName": "Binh Phuoc",
+        "cityNameVI": "Bình Phước"
+    },
+    {
+        "cityId": 73,
+        "cityName": "Dak Nong",
+        "cityNameVI": "Đắk Nông"
+    },
+    {
+        "cityId": 51,
+        "cityName": "Soc Trang",
+        "cityNameVI": "Sóc Trăng"
+    }
+]

@@ -1,0 +1,797 @@
+[
+    {
+        "jobFunctionV3Id": 129,
+        "jobFunctionV3Name": "Sales/Business Development",
+        "jobFunctionV3NameVI": "Bán Hàng/Phát Triển Kinh Doanh"
+    },
+    {
+        "jobFunctionV3Id": 75,
+        "jobFunctionV3Name": "Training and Development",
+        "jobFunctionV3NameVI": "Đào Tạo Và Phát Triển"
+    },
+    {
+        "jobFunctionV3Id": 76,
+        "jobFunctionV3Name": "Recruitment",
+        "jobFunctionV3NameVI": "Tuyển Dụng"
+    },
+    {
+        "jobFunctionV3Id": 36,
+        "jobFunctionV3Name": "Software Developer",
+        "jobFunctionV3NameVI": "Phần Mềm Máy Tính"
+    },
+    {
+        "jobFunctionV3Id": 73,
+        "jobFunctionV3Name": "General HR",
+        "jobFunctionV3NameVI": "Nhân Sự Tổng Hợp"
+    },
+    {
+        "jobFunctionV3Id": 153,
+        "jobFunctionV3Name": "Production Operation & Planning",
+        "jobFunctionV3NameVI": "Hoạch Định & Quản Lý Sản Xuất"
+    },
+    {
+        "jobFunctionV3Id": 8,
+        "jobFunctionV3Name": "Audit",
+        "jobFunctionV3NameVI": "Kiểm Toán"
+    },
+    {
+        "jobFunctionV3Id": 95,
+        "jobFunctionV3Name": "Generalists",
+        "jobFunctionV3NameVI": "Tư Vấn Pháp Lý"
+    },
+    {
+        "jobFunctionV3Id": 14,
+        "jobFunctionV3Name": "Management Accounting",
+        "jobFunctionV3NameVI": "Kế Toán Quản Trị"
+    },
+    {
+        "jobFunctionV3Id": 60,
+        "jobFunctionV3Name": "Financial Analysis & Research",
+        "jobFunctionV3NameVI": "Phân Tích & Báo Cáo Tài Chính"
+    },
+    {
+        "jobFunctionV3Id": 59,
+        "jobFunctionV3Name": "Accounts & Relationship Management",
+        "jobFunctionV3NameVI": "Quản Lý Quan Hệ Khách Hàng"
+    },
+    {
+        "jobFunctionV3Id": 156,
+        "jobFunctionV3Name": "Pharmacy Distribution",
+        "jobFunctionV3NameVI": "Phân Phối Dược Phẩm"
+    },
+    {
+        "jobFunctionV3Id": 39,
+        "jobFunctionV3Name": "Customer Service",
+        "jobFunctionV3NameVI": "Dịch Vụ Khách Hàng"
+    },
+    {
+        "jobFunctionV3Id": 120,
+        "jobFunctionV3Name": "Administration",
+        "jobFunctionV3NameVI": "Hành Chính"
+    },
+    {
+        "jobFunctionV3Id": 4,
+        "jobFunctionV3Name": "Student Services",
+        "jobFunctionV3NameVI": "Dịch Vụ Sinh Viên/Hỗ Trợ Học Viên"
+    },
+    {
+        "jobFunctionV3Id": 134,
+        "jobFunctionV3Name": "Maintenance Technician",
+        "jobFunctionV3NameVI": "Bảo trì/Bảo Dưỡng"
+    },
+    {
+        "jobFunctionV3Id": 23,
+        "jobFunctionV3Name": "Project Management",
+        "jobFunctionV3NameVI": "Quản Lý Dự Án"
+    },
+    {
+        "jobFunctionV3Id": 32,
+        "jobFunctionV3Name": "System/Cloud/DevOps Engineer",
+        "jobFunctionV3NameVI": "System/Cloud/DevOps Engineer"
+    },
+    {
+        "jobFunctionV3Id": 53,
+        "jobFunctionV3Name": "Electrical/Electronic",
+        "jobFunctionV3NameVI": "Kỹ Thuật Điện/Điện Tử"
+    },
+    {
+        "jobFunctionV3Id": 13,
+        "jobFunctionV3Name": "General Accounting",
+        "jobFunctionV3NameVI": "Kế Toán Tổng Hợp"
+    },
+    {
+        "jobFunctionV3Id": 155,
+        "jobFunctionV3Name": "Research & Development",
+        "jobFunctionV3NameVI": "Nghiên Cứu & Phát Triển"
+    },
+    {
+        "jobFunctionV3Id": 33,
+        "jobFunctionV3Name": "IT Product Management/Project Management",
+        "jobFunctionV3NameVI": "Quản Lý Dự Án Công Nghệ"
+    },
+    {
+        "jobFunctionV3Id": 130,
+        "jobFunctionV3Name": "Sales Engineer/Technical Sales",
+        "jobFunctionV3NameVI": "Bán Hàng Kỹ Thuật"
+    },
+    {
+        "jobFunctionV3Id": 27,
+        "jobFunctionV3Name": "Data Engineer/Data Analyst/AI",
+        "jobFunctionV3NameVI": "Data Engineer/Data Analyst/AI"
+    },
+    {
+        "jobFunctionV3Id": 79,
+        "jobFunctionV3Name": "Import/Export & Customs",
+        "jobFunctionV3NameVI": "Xuất Nhập Khẩu & Thủ Tục Hải Quan"
+    },
+    {
+        "jobFunctionV3Id": 29,
+        "jobFunctionV3Name": "Hardware Developer",
+        "jobFunctionV3NameVI": "Phần Cứng Máy Tính"
+    },
+    {
+        "jobFunctionV3Id": 80,
+        "jobFunctionV3Name": "Procurement & Inventory",
+        "jobFunctionV3NameVI": "Thu Mua & Quản Trị Hàng Tồn Kho"
+    },
+    {
+        "jobFunctionV3Id": 11,
+        "jobFunctionV3Name": "Financial Accounting",
+        "jobFunctionV3NameVI": "Kế Toán Tài Chính"
+    },
+    {
+        "jobFunctionV3Id": 144,
+        "jobFunctionV3Name": "Retail Assistant",
+        "jobFunctionV3NameVI": "Trợ Lý Bán Lẻ"
+    },
+    {
+        "jobFunctionV3Id": 104,
+        "jobFunctionV3Name": "Content Marketing/Copywriter",
+        "jobFunctionV3NameVI": "Tiếp Thị Nội Dung"
+    },
+    {
+        "jobFunctionV3Id": 103,
+        "jobFunctionV3Name": "Brand Mangement",
+        "jobFunctionV3NameVI": "Quản Lý Thương Hiệu"
+    },
+    {
+        "jobFunctionV3Id": 108,
+        "jobFunctionV3Name": "Marketing",
+        "jobFunctionV3NameVI": "Tiếp Thị"
+    },
+    {
+        "jobFunctionV3Id": 81,
+        "jobFunctionV3Name": "Supply Chain Management",
+        "jobFunctionV3NameVI": "Quản Lý Chuỗi Cung Ứng"
+    },
+    {
+        "jobFunctionV3Id": 124,
+        "jobFunctionV3Name": "Purchasing",
+        "jobFunctionV3NameVI": "Thu Mua"
+    },
+    {
+        "jobFunctionV3Id": 30,
+        "jobFunctionV3Name": "IT Management",
+        "jobFunctionV3NameVI": "Quản Lý Công Nghệ Thông Tin"
+    },
+    {
+        "jobFunctionV3Id": 51,
+        "jobFunctionV3Name": "Biotechnologies",
+        "jobFunctionV3NameVI": "Công Nghệ Sinh Học"
+    },
+    {
+        "jobFunctionV3Id": 61,
+        "jobFunctionV3Name": "Client Services",
+        "jobFunctionV3NameVI": "Dịch Vụ Hỗ Trợ Khách Hàng"
+    },
+    {
+        "jobFunctionV3Id": 94,
+        "jobFunctionV3Name": "Construction Law",
+        "jobFunctionV3NameVI": "Luật Xây Dựng"
+    },
+    {
+        "jobFunctionV3Id": 107,
+        "jobFunctionV3Name": "Market Research & Analysis",
+        "jobFunctionV3NameVI": "Nghiên Cứu & Phân Tích Thị Trường"
+    },
+    {
+        "jobFunctionV3Id": 82,
+        "jobFunctionV3Name": "Warehouse & Distribution",
+        "jobFunctionV3NameVI": "Quản Lý Kho & Phân Phối"
+    },
+    {
+        "jobFunctionV3Id": 50,
+        "jobFunctionV3Name": "Automotive Engineering",
+        "jobFunctionV3NameVI": "Kỹ Thuật Ô Tô"
+    },
+    {
+        "jobFunctionV3Id": 56,
+        "jobFunctionV3Name": "Mechanical & HVAC",
+        "jobFunctionV3NameVI": "Cơ Khí & Điện Lạnh"
+    },
+    {
+        "jobFunctionV3Id": 18,
+        "jobFunctionV3Name": "Architecture Design/Architectural Drafting",
+        "jobFunctionV3NameVI": "Thiết Kế Kiến Trúc/Họa Viên Kiến Trúc"
+    },
+    {
+        "jobFunctionV3Id": 31,
+        "jobFunctionV3Name": "IT Support/Help Desk",
+        "jobFunctionV3NameVI": "IT Support/Help Desk"
+    },
+    {
+        "jobFunctionV3Id": 62,
+        "jobFunctionV3Name": "Compliance & Risk",
+        "jobFunctionV3NameVI": "Tuân Thủ & Kiểm Soát Rủi Ro"
+    },
+    {
+        "jobFunctionV3Id": 44,
+        "jobFunctionV3Name": "Industrial Design/Technical Design",
+        "jobFunctionV3NameVI": "Thiết Kế Công Nghiệp/Kỹ Thuật"
+    },
+    {
+        "jobFunctionV3Id": 158,
+        "jobFunctionV3Name": "General Management",
+        "jobFunctionV3NameVI": "Quản Lý Cấp Cao"
+    },
+    {
+        "jobFunctionV3Id": 66,
+        "jobFunctionV3Name": "Investment",
+        "jobFunctionV3NameVI": "Đầu Tư Tài Chính"
+    },
+    {
+        "jobFunctionV3Id": 152,
+        "jobFunctionV3Name": "Production Analysis",
+        "jobFunctionV3NameVI": "Phân Tích Sản Xuất"
+    },
+    {
+        "jobFunctionV3Id": 131,
+        "jobFunctionV3Name": "Telesales",
+        "jobFunctionV3NameVI": "Bán Hàng Qua Điện Thoại"
+    },
+    {
+        "jobFunctionV3Id": 148,
+        "jobFunctionV3Name": "Merchandising",
+        "jobFunctionV3NameVI": "Quản Lý Đơn Hàng"
+    },
+    {
+        "jobFunctionV3Id": 146,
+        "jobFunctionV3Name": "NGO/Non-Profit",
+        "jobFunctionV3NameVI": "NGO/Phi Lợi Nhuận"
+    },
+    {
+        "jobFunctionV3Id": 151,
+        "jobFunctionV3Name": "Machine Operator",
+        "jobFunctionV3NameVI": "Vận Hành Máy Móc"
+    },
+    {
+        "jobFunctionV3Id": 34,
+        "jobFunctionV3Name": "QA/QC/Software Testing",
+        "jobFunctionV3NameVI": "QA/QC/Software Testing"
+    },
+    {
+        "jobFunctionV3Id": 28,
+        "jobFunctionV3Name": "Digital Transformation",
+        "jobFunctionV3NameVI": "Chuyển Đổi Số"
+    },
+    {
+        "jobFunctionV3Id": 132,
+        "jobFunctionV3Name": "Auto Mechanic",
+        "jobFunctionV3NameVI": "Cơ Khí Tự Động Hoá"
+    },
+    {
+        "jobFunctionV3Id": 52,
+        "jobFunctionV3Name": "Chemical Engineering",
+        "jobFunctionV3NameVI": "Kỹ Thuật Hóa Học"
+    },
+    {
+        "jobFunctionV3Id": 67,
+        "jobFunctionV3Name": "Stockbroking & Trading",
+        "jobFunctionV3NameVI": "Môi Giới & Giao Dịch Chứng Khoán"
+    },
+    {
+        "jobFunctionV3Id": 110,
+        "jobFunctionV3Name": "Public Relations & Corporate Affairs",
+        "jobFunctionV3NameVI": "Quan Hệ Công Chúng"
+    },
+    {
+        "jobFunctionV3Id": 127,
+        "jobFunctionV3Name": "Secretary",
+        "jobFunctionV3NameVI": "Thư Ký"
+    },
+    {
+        "jobFunctionV3Id": 72,
+        "jobFunctionV3Name": "Compensation & Benefit",
+        "jobFunctionV3NameVI": "Lương Thưởng & Phúc Lợi"
+    },
+    {
+        "jobFunctionV3Id": 121,
+        "jobFunctionV3Name": "General Coordinator",
+        "jobFunctionV3NameVI": "Điều Phối"
+    },
+    {
+        "jobFunctionV3Id": 25,
+        "jobFunctionV3Name": "Business/System Analysis",
+        "jobFunctionV3NameVI": "Phân Tích Kinh Doanh/Phân Tích Hệ Thống"
+    },
+    {
+        "jobFunctionV3Id": 122,
+        "jobFunctionV3Name": "Interpreter/Translator",
+        "jobFunctionV3NameVI": "Biên Phiên Dịch"
+    },
+    {
+        "jobFunctionV3Id": 19,
+        "jobFunctionV3Name": "Civil Engineering",
+        "jobFunctionV3NameVI": "Xây Dựng"
+    },
+    {
+        "jobFunctionV3Id": 102,
+        "jobFunctionV3Name": "Agency Account Management",
+        "jobFunctionV3NameVI": "Quản Lý Tài Khoản Khách Hàng"
+    },
+    {
+        "jobFunctionV3Id": 88,
+        "jobFunctionV3Name": "Hotel Reservation",
+        "jobFunctionV3NameVI": "Đặt Phòng Khách Sạn"
+    },
+    {
+        "jobFunctionV3Id": 150,
+        "jobFunctionV3Name": "Assembly & Process Work",
+        "jobFunctionV3NameVI": "Quy Trình & Lắp Ráp"
+    },
+    {
+        "jobFunctionV3Id": 93,
+        "jobFunctionV3Name": "Banking/Finance/Commercal Law",
+        "jobFunctionV3NameVI": "Luật Tài Chính Ngân Hàng Thương mại"
+    },
+    {
+        "jobFunctionV3Id": 9,
+        "jobFunctionV3Name": "Corporate Planning/Corporate Advisory",
+        "jobFunctionV3NameVI": "Kế hoạch/Tư Vấn Doanh Nghiệp"
+    },
+    {
+        "jobFunctionV3Id": 109,
+        "jobFunctionV3Name": "Product Marketing",
+        "jobFunctionV3NameVI": "Quản Lý & Phát Triển Sản Phẩm"
+    },
+    {
+        "jobFunctionV3Id": 154,
+        "jobFunctionV3Name": "Quality Assurance/Quality Control/Quality Management",
+        "jobFunctionV3NameVI": "Đảm Bảo Chất Lượng/Kiểm Soát Chất Lượng/Quản Lý Chất Lượng"
+    },
+    {
+        "jobFunctionV3Id": 2,
+        "jobFunctionV3Name": "Educational Management",
+        "jobFunctionV3NameVI": "Quản Lý Giáo Dục"
+    },
+    {
+        "jobFunctionV3Id": 149,
+        "jobFunctionV3Name": "Clothing Technology",
+        "jobFunctionV3NameVI": "Phát Triển Sản Phẩm May Mặc"
+    },
+    {
+        "jobFunctionV3Id": 105,
+        "jobFunctionV3Name": "Digital Marketing",
+        "jobFunctionV3NameVI": "Tiếp Thị Trực Tuyến"
+    },
+    {
+        "jobFunctionV3Id": 26,
+        "jobFunctionV3Name": "Database Administration",
+        "jobFunctionV3NameVI": "Quản Trị Cơ Sở Dữ Liệu"
+    },
+    {
+        "jobFunctionV3Id": 58,
+        "jobFunctionV3Name": "Power/Water/Waste Engineering",
+        "jobFunctionV3NameVI": "Điện/Nước/Chất Thải"
+    },
+    {
+        "jobFunctionV3Id": 63,
+        "jobFunctionV3Name": "Credit",
+        "jobFunctionV3NameVI": "Tín Dụng"
+    },
+    {
+        "jobFunctionV3Id": 157,
+        "jobFunctionV3Name": "CEO",
+        "jobFunctionV3NameVI": "CEO"
+    },
+    {
+        "jobFunctionV3Id": 43,
+        "jobFunctionV3Name": "Graphic Design",
+        "jobFunctionV3NameVI": "Thiết Kế Đồ Họa"
+    },
+    {
+        "jobFunctionV3Id": 159,
+        "jobFunctionV3Name": "Others",
+        "jobFunctionV3NameVI": "Khác"
+    },
+    {
+        "jobFunctionV3Id": 125,
+        "jobFunctionV3Name": "Receptionist",
+        "jobFunctionV3NameVI": "Lễ Tân/Tiếp Tân"
+    },
+    {
+        "jobFunctionV3Id": 42,
+        "jobFunctionV3Name": "Fashion Design/Jewelry Design",
+        "jobFunctionV3NameVI": "Thiết Kế Thời Trang/Trang Sức"
+    },
+    {
+        "jobFunctionV3Id": 5,
+        "jobFunctionV3Name": "Teaching/Training",
+        "jobFunctionV3NameVI": "Giảng Dạy/Đào Tạo"
+    },
+    {
+        "jobFunctionV3Id": 38,
+        "jobFunctionV3Name": "UX/UI Design",
+        "jobFunctionV3NameVI": "UX/UI Design"
+    },
+    {
+        "jobFunctionV3Id": 133,
+        "jobFunctionV3Name": "CNC Technician",
+        "jobFunctionV3NameVI": "Kỹ Thuật CNC"
+    },
+    {
+        "jobFunctionV3Id": 126,
+        "jobFunctionV3Name": "Sales Administration",
+        "jobFunctionV3NameVI": "Trợ Lý Kinh Doanh"
+    },
+    {
+        "jobFunctionV3Id": 12,
+        "jobFunctionV3Name": "Financial Managers & Controllers",
+        "jobFunctionV3NameVI": "Kiểm Soát Viên Tài Chính"
+    },
+    {
+        "jobFunctionV3Id": 145,
+        "jobFunctionV3Name": "Store Management",
+        "jobFunctionV3NameVI": "Quản Lý Cửa Hàng"
+    },
+    {
+        "jobFunctionV3Id": 37,
+        "jobFunctionV3Name": "Telecommunications",
+        "jobFunctionV3NameVI": "Viễn Thông"
+    },
+    {
+        "jobFunctionV3Id": 1,
+        "jobFunctionV3Name": "Educational Consulting",
+        "jobFunctionV3NameVI": "Tư Vấn Giáo Dục"
+    },
+    {
+        "jobFunctionV3Id": 15,
+        "jobFunctionV3Name": "Taxation",
+        "jobFunctionV3NameVI": "Kế Toán Thuế"
+    },
+    {
+        "jobFunctionV3Id": 139,
+        "jobFunctionV3Name": "Residential Leasing & Property Management",
+        "jobFunctionV3NameVI": "Cho Thuê & Quản Lý Căn Hộ"
+    },
+    {
+        "jobFunctionV3Id": 22,
+        "jobFunctionV3Name": "Interior Design",
+        "jobFunctionV3NameVI": "Thiết Kế Nội Thất"
+    },
+    {
+        "jobFunctionV3Id": 6,
+        "jobFunctionV3Name": "Accounts Payable",
+        "jobFunctionV3NameVI": "Kế Toán Thanh Toán"
+    },
+    {
+        "jobFunctionV3Id": 115,
+        "jobFunctionV3Name": "Doctor/General Practitioners/Residents",
+        "jobFunctionV3NameVI": "Bác Sĩ/Điều Trị Đa Khoa/Điều Trị Nội Trú"
+    },
+    {
+        "jobFunctionV3Id": 17,
+        "jobFunctionV3Name": "Agriculture/Livestock/Fishery",
+        "jobFunctionV3NameVI": "Nông/Lâm/Ngư nghiệp"
+    },
+    {
+        "jobFunctionV3Id": 101,
+        "jobFunctionV3Name": "Tax Law",
+        "jobFunctionV3NameVI": "Luật Thuế"
+    },
+    {
+        "jobFunctionV3Id": 140,
+        "jobFunctionV3Name": "Property Development",
+        "jobFunctionV3NameVI": "Phát Triển Bất Động Sản"
+    },
+    {
+        "jobFunctionV3Id": 141,
+        "jobFunctionV3Name": "Valuation",
+        "jobFunctionV3NameVI": "Định Giá"
+    },
+    {
+        "jobFunctionV3Id": 78,
+        "jobFunctionV3Name": "Freight/Cargo Forwarding",
+        "jobFunctionV3NameVI": "Vận Tải/Giao Nhận Hàng Hóa"
+    },
+    {
+        "jobFunctionV3Id": 84,
+        "jobFunctionV3Name": "Claims",
+        "jobFunctionV3NameVI": "Bồi Thường Bảo Hiểm"
+    },
+    {
+        "jobFunctionV3Id": 7,
+        "jobFunctionV3Name": "Accounts Receivable",
+        "jobFunctionV3NameVI": "Kế Toán Công Nợ"
+    },
+    {
+        "jobFunctionV3Id": 10,
+        "jobFunctionV3Name": "Cost Accounting",
+        "jobFunctionV3NameVI": "Kế Toán Chi Phí"
+    },
+    {
+        "jobFunctionV3Id": 136,
+        "jobFunctionV3Name": "Real Estate Analysis",
+        "jobFunctionV3NameVI": "Phân Tích Dự Án Bất Động Sản"
+    },
+    {
+        "jobFunctionV3Id": 116,
+        "jobFunctionV3Name": "Medical Technologist",
+        "jobFunctionV3NameVI": "Kỹ Thuật Viên Y Tế"
+    },
+    {
+        "jobFunctionV3Id": 64,
+        "jobFunctionV3Name": "Debt Collection",
+        "jobFunctionV3NameVI": "Thu Hồi Nợ"
+    },
+    {
+        "jobFunctionV3Id": 35,
+        "jobFunctionV3Name": "Security",
+        "jobFunctionV3NameVI": "Bảo Mật Công Nghệ Thông Tin"
+    },
+    {
+        "jobFunctionV3Id": 111,
+        "jobFunctionV3Name": "Trade Marketing",
+        "jobFunctionV3NameVI": "Tiếp Thị Thương Mại"
+    },
+    {
+        "jobFunctionV3Id": 20,
+        "jobFunctionV3Name": "Project Development/Contracts",
+        "jobFunctionV3NameVI": "Phát Triển Dự Án/Đấu Thầu"
+    },
+    {
+        "jobFunctionV3Id": 142,
+        "jobFunctionV3Name": "Area/Multisite Management",
+        "jobFunctionV3NameVI": "Quản Lý Khu Vực"
+    },
+    {
+        "jobFunctionV3Id": 138,
+        "jobFunctionV3Name": "Commercial Sales, Leasing & Property Management",
+        "jobFunctionV3NameVI": "Kinh Doanh Thương Mại, Cho Thuê & Quản Lý Tài Sản"
+    },
+    {
+        "jobFunctionV3Id": 135,
+        "jobFunctionV3Name": "Printing Technician",
+        "jobFunctionV3NameVI": "In Ấn"
+    },
+    {
+        "jobFunctionV3Id": 54,
+        "jobFunctionV3Name": "Environmental",
+        "jobFunctionV3NameVI": "Kỹ Thuật Môi Trường"
+    },
+    {
+        "jobFunctionV3Id": 21,
+        "jobFunctionV3Name": "Health, Safety & Environment",
+        "jobFunctionV3NameVI": "An Toàn Lao Động"
+    },
+    {
+        "jobFunctionV3Id": 24,
+        "jobFunctionV3Name": "Urban Design & Planning",
+        "jobFunctionV3NameVI": "Thiết Kế & Quy Hoạch Đô Thị"
+    },
+    {
+        "jobFunctionV3Id": 117,
+        "jobFunctionV3Name": "Nursing",
+        "jobFunctionV3NameVI": "Y Tá"
+    },
+    {
+        "jobFunctionV3Id": 57,
+        "jobFunctionV3Name": "Mining/Oil/Gas",
+        "jobFunctionV3NameVI": "Khai Thác Mỏ"
+    },
+    {
+        "jobFunctionV3Id": 85,
+        "jobFunctionV3Name": "Risk Consulting",
+        "jobFunctionV3NameVI": "Tư Vấn Rủi Ro"
+    },
+    {
+        "jobFunctionV3Id": 41,
+        "jobFunctionV3Name": "Customer Service - Customer Facing",
+        "jobFunctionV3NameVI": "Dịch Vụ Khách Hàng - Hướng Khách Hàng"
+    },
+    {
+        "jobFunctionV3Id": 99,
+        "jobFunctionV3Name": "Legal Practice Management",
+        "jobFunctionV3NameVI": "Quản Lý Thi Hành Pháp Luật"
+    },
+    {
+        "jobFunctionV3Id": 147,
+        "jobFunctionV3Name": "Policy, Planning & Regulation",
+        "jobFunctionV3NameVI": "Chính sách, Quy hoạch & Quy định"
+    },
+    {
+        "jobFunctionV3Id": 143,
+        "jobFunctionV3Name": "Buying",
+        "jobFunctionV3NameVI": "Thu Mua"
+    },
+    {
+        "jobFunctionV3Id": 112,
+        "jobFunctionV3Name": "Art Direction/Photography",
+        "jobFunctionV3NameVI": "Đạo Diễn Nghệ Thuật/Nhiếp Ảnh"
+    },
+    {
+        "jobFunctionV3Id": 3,
+        "jobFunctionV3Name": "Research and Fellowship",
+        "jobFunctionV3NameVI": "Nghiên Cứu Học Thuật"
+    },
+    {
+        "jobFunctionV3Id": 16,
+        "jobFunctionV3Name": "Revenue Accounting",
+        "jobFunctionV3NameVI": "Kế Toán Doanh Thu"
+    },
+    {
+        "jobFunctionV3Id": 49,
+        "jobFunctionV3Name": "Road Transport",
+        "jobFunctionV3NameVI": "Vận Tải Đường Bộ"
+    },
+    {
+        "jobFunctionV3Id": 123,
+        "jobFunctionV3Name": "Office Management",
+        "jobFunctionV3NameVI": "Quản Lý Văn Phòng"
+    },
+    {
+        "jobFunctionV3Id": 137,
+        "jobFunctionV3Name": "Facilities Management",
+        "jobFunctionV3NameVI": "Quản Lý Cơ Sở Vật Chất"
+    },
+    {
+        "jobFunctionV3Id": 45,
+        "jobFunctionV3Name": "Video Editing",
+        "jobFunctionV3NameVI": "Chỉnh Sửa Video"
+    },
+    {
+        "jobFunctionV3Id": 90,
+        "jobFunctionV3Name": "Tour Operator",
+        "jobFunctionV3NameVI": "Công Ty Kinh Doanh Lữ Hành"
+    },
+    {
+        "jobFunctionV3Id": 128,
+        "jobFunctionV3Name": "Safe Guard",
+        "jobFunctionV3NameVI": "Bảo Vệ"
+    },
+    {
+        "jobFunctionV3Id": 70,
+        "jobFunctionV3Name": "F&B Management",
+        "jobFunctionV3NameVI": "Quản Lý F&B"
+    },
+    {
+        "jobFunctionV3Id": 55,
+        "jobFunctionV3Name": "Food Technology",
+        "jobFunctionV3NameVI": "Công Nghệ Thực Phẩm"
+    },
+    {
+        "jobFunctionV3Id": 46,
+        "jobFunctionV3Name": "Aviation Services",
+        "jobFunctionV3NameVI": "Dịch Vụ Hàng Không"
+    },
+    {
+        "jobFunctionV3Id": 106,
+        "jobFunctionV3Name": "Event Management",
+        "jobFunctionV3NameVI": "Quản Lý Sự Kiện"
+    },
+    {
+        "jobFunctionV3Id": 86,
+        "jobFunctionV3Name": "Underwriting",
+        "jobFunctionV3NameVI": "Bao Tiêu/Bảo Lãnh"
+    },
+    {
+        "jobFunctionV3Id": 118,
+        "jobFunctionV3Name": "Pharmacist",
+        "jobFunctionV3NameVI": "Dược Sĩ"
+    },
+    {
+        "jobFunctionV3Id": 40,
+        "jobFunctionV3Name": "Customer Service - Call Center",
+        "jobFunctionV3NameVI": "Dịch Vụ Khách Hàng - Call Center"
+    },
+    {
+        "jobFunctionV3Id": 69,
+        "jobFunctionV3Name": "Chefs/Cooks",
+        "jobFunctionV3NameVI": "Đầu Bếp"
+    },
+    {
+        "jobFunctionV3Id": 114,
+        "jobFunctionV3Name": "Programming & Production",
+        "jobFunctionV3NameVI": "Sản Xuất Chương Trình"
+    },
+    {
+        "jobFunctionV3Id": 83,
+        "jobFunctionV3Name": "Actuary",
+        "jobFunctionV3NameVI": "Định Phí Bảo Hiểm"
+    },
+    {
+        "jobFunctionV3Id": 65,
+        "jobFunctionV3Name": "Funds Management",
+        "jobFunctionV3NameVI": "Quản Lý Quỹ"
+    },
+    {
+        "jobFunctionV3Id": 77,
+        "jobFunctionV3Name": "Fleet Management",
+        "jobFunctionV3NameVI": "Quản Lý Đội Xe"
+    },
+    {
+        "jobFunctionV3Id": 119,
+        "jobFunctionV3Name": "Psychology, Counselling & Social Work",
+        "jobFunctionV3NameVI": "Tư Vấn Tâm Lý & Công Tác Xã Hội"
+    },
+    {
+        "jobFunctionV3Id": 74,
+        "jobFunctionV3Name": "Performance & Career Management",
+        "jobFunctionV3NameVI": "Quản Trị Hiệu Suất & Sự Nghiệp"
+    },
+    {
+        "jobFunctionV3Id": 47,
+        "jobFunctionV3Name": "Public Transport & Taxi Services",
+        "jobFunctionV3NameVI": "Dịch Vụ Vận Tải Công Cộng"
+    },
+    {
+        "jobFunctionV3Id": 87,
+        "jobFunctionV3Name": "Front Office & Guest Services",
+        "jobFunctionV3NameVI": "Bộ Phận Tiền Sảnh & Dịch Vụ Khách Hàng"
+    },
+    {
+        "jobFunctionV3Id": 68,
+        "jobFunctionV3Name": "Bar/Beverage/Waiting",
+        "jobFunctionV3NameVI": "Quầy Bar/Đồ Uống/Phục vụ"
+    },
+    {
+        "jobFunctionV3Id": 48,
+        "jobFunctionV3Name": "Rail & Maritime Transport",
+        "jobFunctionV3NameVI": "Vận Tải Đường Sắt & Hàng Hải"
+    },
+    {
+        "jobFunctionV3Id": 98,
+        "jobFunctionV3Name": "Law Clerks & Paralegals",
+        "jobFunctionV3NameVI": "Thư Ký Luật & Trợ Lý Luật"
+    },
+    {
+        "jobFunctionV3Id": 0,
+        "jobFunctionV3Name": "",
+        "jobFunctionV3NameVI": ""
+    },
+    {
+        "jobFunctionV3Id": 71,
+        "jobFunctionV3Name": "Employee Engagement",
+        "jobFunctionV3NameVI": "Gắn Kết Nhân Viên"
+    },
+    {
+        "jobFunctionV3Id": 89,
+        "jobFunctionV3Name": "Housekeeping",
+        "jobFunctionV3NameVI": "Vệ Sinh Buồng Phòng"
+    },
+    {
+        "jobFunctionV3Id": 113,
+        "jobFunctionV3Name": "Printing & Publishing Services",
+        "jobFunctionV3NameVI": "In Ấn & Xuất Bản"
+    },
+    {
+        "jobFunctionV3Id": 91,
+        "jobFunctionV3Name": "Tourist Guides",
+        "jobFunctionV3NameVI": "Hướng Dẫn Viên Du Lịch"
+    },
+    {
+        "jobFunctionV3Id": 92,
+        "jobFunctionV3Name": "Travel Agents",
+        "jobFunctionV3NameVI": "Đại Lý Du Lịch"
+    },
+    {
+        "jobFunctionV3Id": 97,
+        "jobFunctionV3Name": "Intellectual/Property Law",
+        "jobFunctionV3NameVI": "Luật Sở Hữu Trí Tuệ"
+    },
+    {
+        "jobFunctionV3Id": 100,
+        "jobFunctionV3Name": "Legal Secretaries",
+        "jobFunctionV3NameVI": "Thư Ký Pháp Lý"
+    }
+]

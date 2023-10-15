@@ -1,0 +1,157 @@
+[
+    {
+        "groupJobFunctionV3Id": 2,
+        "groupJobFunctionV3Name": "Accounting/Auditing",
+        "groupJobFunctionV3NameVI": "Kế Toán/Kiểm Toán"
+    },
+    {
+        "groupJobFunctionV3Id": 5,
+        "groupJobFunctionV3Name": "Information Technology/Telecommunications",
+        "groupJobFunctionV3NameVI": "Công Nghệ Thông Tin/Viễn Thông"
+    },
+    {
+        "groupJobFunctionV3Id": 29,
+        "groupJobFunctionV3Name": "CEO & General Management",
+        "groupJobFunctionV3NameVI": "CEO & General Management"
+    },
+    {
+        "groupJobFunctionV3Id": 21,
+        "groupJobFunctionV3Name": "Sales",
+        "groupJobFunctionV3NameVI": "Kinh Doanh"
+    },
+    {
+        "groupJobFunctionV3Id": 27,
+        "groupJobFunctionV3Name": "Manufacturing",
+        "groupJobFunctionV3NameVI": "Sản Xuất"
+    },
+    {
+        "groupJobFunctionV3Id": 4,
+        "groupJobFunctionV3Name": "Architecture/Construction",
+        "groupJobFunctionV3NameVI": "Kiến Trúc/Xây Dựng"
+    },
+    {
+        "groupJobFunctionV3Id": 12,
+        "groupJobFunctionV3Name": "Human Resources/Recruitment",
+        "groupJobFunctionV3NameVI": "Nhân Sự/Tuyển Dụng"
+    },
+    {
+        "groupJobFunctionV3Id": 16,
+        "groupJobFunctionV3Name": "Legal",
+        "groupJobFunctionV3NameVI": "Pháp Lý"
+    },
+    {
+        "groupJobFunctionV3Id": 10,
+        "groupJobFunctionV3Name": "Banking & Financial Services",
+        "groupJobFunctionV3NameVI": "Ngân Hàng & Dịch Vụ Tài Chính"
+    },
+    {
+        "groupJobFunctionV3Id": 28,
+        "groupJobFunctionV3Name": "Pharmacy",
+        "groupJobFunctionV3NameVI": "Dược"
+    },
+    {
+        "groupJobFunctionV3Id": 6,
+        "groupJobFunctionV3Name": "Customer Service",
+        "groupJobFunctionV3NameVI": "Dịch Vụ Khách Hàng"
+    },
+    {
+        "groupJobFunctionV3Id": 20,
+        "groupJobFunctionV3Name": "Administration/Office Support",
+        "groupJobFunctionV3NameVI": "Hành Chính Văn Phòng"
+    },
+    {
+        "groupJobFunctionV3Id": 1,
+        "groupJobFunctionV3Name": "Academic/Education",
+        "groupJobFunctionV3NameVI": "Giáo Dục"
+    },
+    {
+        "groupJobFunctionV3Id": 22,
+        "groupJobFunctionV3Name": "Technician",
+        "groupJobFunctionV3NameVI": "Kỹ Thuật"
+    },
+    {
+        "groupJobFunctionV3Id": 9,
+        "groupJobFunctionV3Name": "Engineering & Sciences",
+        "groupJobFunctionV3NameVI": "Khoa Học & Kỹ Thuật"
+    },
+    {
+        "groupJobFunctionV3Id": 13,
+        "groupJobFunctionV3Name": "Logistics/Import Export/Warehouse",
+        "groupJobFunctionV3NameVI": "Hậu Cần/Xuất Nhập Khẩu/Kho Bãi"
+    },
+    {
+        "groupJobFunctionV3Id": 24,
+        "groupJobFunctionV3Name": "Retail/Consumer Products",
+        "groupJobFunctionV3NameVI": "Bán Lẻ/Tiêu Dùng"
+    },
+    {
+        "groupJobFunctionV3Id": 17,
+        "groupJobFunctionV3Name": "Marketing, Advertising/Communications",
+        "groupJobFunctionV3NameVI": "Tiếp Thị, Quảng Cáo/Truyền Thông"
+    },
+    {
+        "groupJobFunctionV3Id": 7,
+        "groupJobFunctionV3Name": "Design",
+        "groupJobFunctionV3NameVI": "Thiết Kế"
+    },
+    {
+        "groupJobFunctionV3Id": 26,
+        "groupJobFunctionV3Name": "Textiles, Garments/Footwear",
+        "groupJobFunctionV3NameVI": "Dệt May/Da Giày"
+    },
+    {
+        "groupJobFunctionV3Id": 25,
+        "groupJobFunctionV3Name": "Government/NGO",
+        "groupJobFunctionV3NameVI": "Chính Phủ/Phi Lợi Nhuận"
+    },
+    {
+        "groupJobFunctionV3Id": 15,
+        "groupJobFunctionV3Name": "Hospitality/Tourism",
+        "groupJobFunctionV3NameVI": "Nhà Hàng - Khách Sạn/Du Lịch"
+    },
+    {
+        "groupJobFunctionV3Id": 30,
+        "groupJobFunctionV3Name": "Others",
+        "groupJobFunctionV3NameVI": "Khác"
+    },
+    {
+        "groupJobFunctionV3Id": 23,
+        "groupJobFunctionV3Name": "Real Estate",
+        "groupJobFunctionV3NameVI": "Bất Động Sản"
+    },
+    {
+        "groupJobFunctionV3Id": 19,
+        "groupJobFunctionV3Name": "Healthcare/Medical Services",
+        "groupJobFunctionV3NameVI": "Y Tế/Chăm Sóc Sức Khoẻ"
+    },
+    {
+        "groupJobFunctionV3Id": 3,
+        "groupJobFunctionV3Name": "Agriculture/Livestock/Fishery",
+        "groupJobFunctionV3NameVI": "Nông/Lâm/Ngư Nghiệp"
+    },
+    {
+        "groupJobFunctionV3Id": 14,
+        "groupJobFunctionV3Name": "Insurance",
+        "groupJobFunctionV3NameVI": "Bảo Hiểm"
+    },
+    {
+        "groupJobFunctionV3Id": 18,
+        "groupJobFunctionV3Name": "Art, Media & Printing/Publishing",
+        "groupJobFunctionV3NameVI": "Nghệ thuật, Truyền thông/In ấn/Xuất bản"
+    },
+    {
+        "groupJobFunctionV3Id": 8,
+        "groupJobFunctionV3Name": "Transportation",
+        "groupJobFunctionV3NameVI": "Vận Tải"
+    },
+    {
+        "groupJobFunctionV3Id": 11,
+        "groupJobFunctionV3Name": "Food and Beverage",
+        "groupJobFunctionV3NameVI": "Dịch Vụ Ăn Uống"
+    },
+    {
+        "groupJobFunctionV3Id": 0,
+        "groupJobFunctionV3Name": "",
+        "groupJobFunctionV3NameVI": ""
+    }
+]
