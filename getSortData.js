@@ -1,6 +1,4 @@
 
-
-const { log } = require('console');
 const fs = require('fs');
 const api = 'https://ms.vietnamworks.com/job-search/v1.0/search'
 const header = {
@@ -73,79 +71,9 @@ const bodyParams = {
         'languageSelectedId'
     ]
 }
-const render = (selector, data) => {
-    const root = document.querySelector(selector);
-    root.innerHTML += data
-};
 
-const city = []
-
-const jobLevel = []
 
 let jobFunctionsV3 = []
-
-// fetch(api, {
-//     method: 'POST',
-//     headers: {
-//         'Accept': '*/*',
-//         'Accept-Language': 'en-US,en;q=0.9',
-//         'Cache-Control': 'no-cache',
-//         'Connection': 'keep-alive',
-//         'Content-Type': 'application/json',
-//         'Origin': 'https://www.vietnamworks.com',
-//         'Pragma': 'no-cache',
-//         'Referer': 'https://www.vietnamworks.com/',
-//         'Sec-Fetch-Dest': 'empty',
-//         'Sec-Fetch-Mode': 'cors',
-//         'Sec-Fetch-Site': 'same-site',
-//         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
-//         'X-Source': 'Page-Container',
-//         'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
-//         'sec-ch-ua-mobile': '?0',
-//         'sec-ch-ua-platform': '"macOS"'
-//     },
-//     body: JSON.stringify(bodyParams)
-// })
-//     .then(res => res.json())
-//     .then(res => {
-//         const data = res.data
-//         data.forEach(job => {
-//             // getCity(job.workingLocations)
-//             // getJoblevel(job)
-//             // getjobFunctionsV3(job)
-//         })
-//         console.log(jobFunctionsV3);
-//         // fs.writeFileSync("./city.json", JSON.stringify(city))
-//         // fs.writeFileSync("./jobLevel.json", JSON.stringify(jobLevel))
-//         // fs.writeFileSync("./jobFunctionsV3Group1.json", JSON.stringify(jobFunctionsV3))
-//     })
-
-// const getCity = (location) => {
-//     const item = {
-//         cityId: location[0].cityId,
-//         cityName: location[0].cityName,
-//         cityNameVI: location[0].cityNameVI,
-//     }
-//     !city.filter(item => item.cityId === location[0].cityId)[0]
-//         ? city.push(item)
-//         : city.push()
-// }
-// const getJoblevel = (job) => {
-//     const item = {
-//         jobLevelId: job.jobLevelId,
-//         jobLevel: job.jobLevel,
-//         jobLevelVI: job.jobLevelVI,
-//     }
-//     !jobLevel.filter(item => item.jobLevelId === job.jobLevelId)[0]
-//         ? jobLevel.push(item)
-//         : jobLevel.push()
-// }
-
-
-// const jobFunctionsChild = (job) => {
-// }
-
-
 
 
 

@@ -18,44 +18,51 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./index.css" />
-    <!-- <link rel="stylesheet" href="./filter-bar.css" />
-    <link rel="stylesheet" href="./drop-down.css" /> -->
+    <style></style>
   </head>
 
   <body>
     <div class="root">
       <form class="container filter-bar">
-        <div class="left-bar d-flex">
-          <div class="filter__box dropdown groupJob"></div>
-          <div class="filter__box dropdown jobs"></div>
-          <div class="filter__box dropdown locations"></div>
-        </div>
-        <div class="right-bar">
-          <button type="submit" class="btn btn-primary search-btn">Tìm Kiếm</button>
+        <div class="filter-bar__ row">
+          <div class="left-bar row col-lg-10 col-md-12">
+            <div class="filter__box dropdown col-lg-3 col-md-6 groupJob"></div>
+            <div class="filter__box dropdown col-lg-2 col-md-5 col-xs-12 jobs"></div>
+            <div class="filter__box dropdown col-lg-2 col-md-5 col-xs-12 locations"></div>
+            <!-- <div class="filter__box col-lg-3 col-md-6 col-xs-12">
+              <div
+                class="d-flex align-items-center"
+                style="height: 40px; padding: 0px 8px; gap: 8px"
+              >
+                <input type="checkbox" id="tt-job-filter" />
+                <div class="filter-title">Bạn là thực tập sinh</div>
+              </div> -->
+            <!-- </div> -->
+          </div>
+          <div class="right-bar col-xs-12 col-md-11 col-lg-2">
+            <button type="submit" class="btn btn-primary search-btn">
+              Tìm Kiếm
+            </button>
+          </div>
         </div>
       </form>
       <div class="container promotion-jobs">
         <div
           class="section__title d-flex justify-content-between align-items-center"
         >
-          <span class="sectionBlock__title"
-            >Việc Làm Nổi Bật <strong>Tất cả việc làm</strong></span
-          >
-          <div class="sectionBlock__link">
-            <a href="">XEM TẤT CẢ</a>
-          </div>
+          <a class="sectionBlock__title">Việc Làm <strong></strong></a>
         </div>
         <div class="sectionBlock__content">
-          <div class="jobs__block"></div>
+          <div class="jobs__block" data-bs-touch="true"></div>
           <div class="content__slider-bar"></div>
         </div>
         <div class="slider-bar">
           <div class="left" onclick="prevSlide()">
-            <i class="fa-solid fa-angle-left" ></i>
+            <i class="fa-solid fa-angle-left"></i>
           </div>
           <div class="dots"></div>
           <div class="right" onclick="nextSlide()">
-            <i class=" fa-solid fa-angle-right" ></i>
+            <i class="fa-solid fa-angle-right"></i>
           </div>
         </div>
       </div>
@@ -64,6 +71,11 @@
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
@@ -75,6 +87,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <script src="./index.js"></script>
+
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

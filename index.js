@@ -77,43 +77,105 @@ const filterForm = {
     locations: [],
 }
 
-var locationsRes = []
-var groupJobRes = []
-var jobsRes = []
-let jobLevel
+var locationsRes 
+var groupJobRes 
+var jobsRes 
+
 
 let currentJobsTotal = 0;
 const filterBar = document.querySelector('.filter-bar').querySelector('.left-bar')
-// filterBar.querySelector('.jobs').style.display = 'none';
-!(() => {
 
-    fetch("groupjob.json")
-        .then(res => res.json())
-        .then(res => {
-            groupJobRes.push(res)
-            return res
-        })
-        .then(res => {
-            renderFilter('groupJob', res)
-        })
 
-    fetch("jobFunctionsV3.json")
-        .then(res => res.json())
-        .then(res => {
-            jobsRes.push(res)
-            return res
-        })
-        .then(res => renderFilter('jobs', res))
+const handleSearch = (e) => {
+    e.preventDefault()
+    const att = e.target.getAttribute('data-search')
+    document.querySelectorAll(`[data-${att}]`).forEach(
+        element => {
+            element.parentNode.childNodes[2].textContent
+                .toLocaleLowerCase().includes(
+                    e.target.value.toLocaleLowerCase()
+                )
+                ? element.parentNode.style.display = ''
+                : element.parentNode.style.display = 'none'
+        }
+    )
+}
 
-    fetch("workingLocations.json")
-        .then(res => res.json())
-        .then(res => {
-            locationsRes.push(res)
-            return res
-        })
-        .then(res => renderFilter('locations', res))
+const createSearch = () => {
+    document.querySelectorAll('[data-search]').forEach(
+        search => search.addEventListener('input', handleSearch)
+    )
+}
 
-    
+const renderFilter = (filter, data) => {
+
+    const filterName = filter === 'locations' ? 'city'
+        : filter === 'groupJob' ? 'groupJobFunctionV3'
+            : 'jobFunctionV3'
+    const defaultTitle = filter === 'locations' ? 'Tỉnh thành'
+        : filter === 'groupJob' ? 'Ngành nghề' : 'Lĩnh vực'
+    let filterData = data.sort((a, b) => a[filterName + 'Id'] - b[filterName + 'Id'])
+    let list = ``
+    filterData.forEach((data) => {
+        list += `<a class="dropdown-item" 
+                            onclick="checkThis(this)"
+                            >
+                            <input type="radio" class="form-check-input"
+                                 value="${data[filterName + 'Id']}"
+                                 name="check-${filterName}"
+                                 data-${filter}="${data[filterName + 'Id']}"
+                            />
+                            ${data[filterName + 'NameVI']}
+                        </a>`
+    })
+    filterBar.querySelector('.' + filter).innerHTML = `
+
+              <div
+              style="height: 40px; padding: 0px 8px;"
+                class="d-flex align-items-center justify-content-between"
+                data-toggle="dropdown"
+              >
+            <div id="filter-${filter}" class="filter-title" > Tất cả ${defaultTitle}</div>
+            <svg width="24" height="24" viewBox="0 0 24 24" version="1.1" 
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path d="M18.6585527,8 C18.5713629,8.00266306 18.4880768,8.03910071 18.4269136,8.10286651 L11.9995722,14.5302079 L5.57223085,8.10286651 C5.50976631,8.03779911 5.42387773,8.00266306 5.33408503,8.00136146 C5.19744359,8.00266306 5.07641862,8.08464752 5.02436484,8.20957661 C4.97361231,8.33580729 5.00354332,8.47895504 5.10114425,8.57395311 L11.7640289,15.2368378 C11.8941634,15.3669722 12.104981,15.3669722 12.2351155,15.2368378 L18.8980002,8.57395311 C18.9969023,8.47895504 19.0268334,8.33190317 18.9747796,8.20567282 C18.9214245,8.07944214 18.7964954,7.99745768 18.6585527,8 Z" id="Down-Arrow-Thin" stroke-width="1"></path></svg>
+                
+            </div>
+              <div class="dropdown-menu" style="position: relative;" aria-labelledby="dropdownMenuButton">
+                <h5>${defaultTitle}</h5>
+                <div  class="search-option" class="d-flex ">
+                    <div class="search-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.0799 1.43994C5.56867 1.43994 1.91992 5.08869 1.91992 9.59994C1.91992 14.1112 5.56867 17.7599 10.0799 17.7599C11.6905 17.7599 13.1812 17.2874 14.4449 16.4849L20.3399 22.3799L22.3799 20.3399L16.5599 14.5349C17.6062 13.1624 18.2399 11.4618 18.2399 9.59994C18.2399 5.08869 14.5912 1.43994 10.0799 1.43994ZM10.0799 3.35994C13.5355 3.35994 16.3199 6.14432 16.3199 9.59994C16.3199 13.0556 13.5355 15.8399 10.0799 15.8399C6.6243 15.8399 3.83992 13.0556 3.83992 9.59994C3.83992 6.14432 6.6243 3.35994 10.0799 3.35994Z" fill="#888"></path></svg>
+                    </div>
+                    <input type="text" data-search="${filter}">
+                </div>
+                <div class="dropdown-list-items">
+                    ${list}
+                </div>
+                <div class="button-group">
+                    <button class="btn btn-primary cancel-btn">Hủy</button>
+                    <button class="btn btn-primary search-btn">Tìm Kiếm</button>
+                </div>
+              </div>
+              `
+    createSearch()
+}
+
+
+!(async () => {
+
+    groupJobRes = await (await fetch("groupjob.json")).json();
+    renderFilter('groupJob', groupJobRes)
+
+    jobsRes = await (await fetch("jobFunctionsV3.json")).json();    
+    renderFilter('jobs', jobsRes)
+
+    locationsRes = await (await fetch("workingLocations.json")).json();
+    renderFilter('locations', locationsRes)
+
+
+
+
 
     document.querySelectorAll('.search-btn').forEach(btn =>
         btn.addEventListener('click', (e) => {
@@ -145,7 +207,7 @@ const jobFunction = () => {
 
     let jobFunctionsValue = "["
     filterForm.groupJob.forEach((job, index) => {
-        const jobChildren = groupJobRes[0].filter(data => data.groupJobFunctionV3Id === +job)[0].children
+        const jobChildren = groupJobRes.filter(data => data.groupJobFunctionV3Id === +job)[0].children
         index > 0 ? jobFunctionsValue += "," : jobFunctionsValue += ""
         jobFunctionsValue += filterForm['jobs'] && jobChildren.includes(+filterForm['jobs'][0])
             ? `{\"parentId\":${job},\"childrenIds\":[${+filterForm['jobs'][0]}]}`
@@ -178,11 +240,19 @@ const getJobs = async () => {
 
     const body = JSON.parse(JSON.stringify(bodyParams))
     filterForm.groupJob[0]
-        ?body.filter.push(jobFunction()) : body.filter.push()
+        ? body.filter.push(jobFunction()) : body.filter.push()
 
     filterForm.locations[0]
-        ?body.filter.push(locations()): body.filter.push()
-        
+        ? body.filter.push(locations()) : body.filter.push()
+
+
+    body.filter.push(
+            {
+                "field": "jobLevelId",
+                "value": "1,8"
+            }
+        )
+
     const fetchData = (await fetch(api, {
         method: 'POST',
         headers: headers,
@@ -195,83 +265,7 @@ const getJobs = async () => {
 
 
 
-const renderFilter = (filter, data) => {
 
-    //     : filter === 'jobs' ? data.jobFunctionsV3 : data.workingLocations
-
-    const filterName = filter === 'locations' ? 'city'
-        : filter === 'groupJob' ? 'groupJobFunctionV3'
-            : 'jobFunctionV3'
-    const defaultTitle = filter === 'locations' ? 'Tỉnh thành'
-        : filter === 'groupJob' ? 'Ngành nghề' : 'Lĩnh vực'
-    let filterData = data.sort((a, b) => a[filterName + 'Id'] - b[filterName + 'Id'])
-    let list = ``
-    filterData.forEach((data) => {
-        !list.includes(data[filterName + 'NameVI'])
-            ? list += `<a class="dropdown-item" 
-                            onclick="checkThis(this)"
-                            href="#">
-                            <input type="radio" class="form-check-input"
-                                 value="${data[filterName + 'Id']}"
-                                 name="check-${filterName}"
-                                 data-${filter}="${data[filterName + 'Id']}"
-                            />
-                            ${data[filterName + 'NameVI']}
-                        </a>`
-            : list += ''
-    })
-    filterBar.querySelector('.' + filter).innerHTML = `
-
-              <div
-              style="height: 40px; padding: 0px 8px;"
-                class="d-flex align-items-center"
-                data-toggle="dropdown"
-              >
-            <div id="filter-${filter}" class="filter-title" > Tất cả ${defaultTitle}</div>
-            <svg width="24" height="24" viewBox="0 0 24 24" version="1.1" 
-                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path d="M18.6585527,8 C18.5713629,8.00266306 18.4880768,8.03910071 18.4269136,8.10286651 L11.9995722,14.5302079 L5.57223085,8.10286651 C5.50976631,8.03779911 5.42387773,8.00266306 5.33408503,8.00136146 C5.19744359,8.00266306 5.07641862,8.08464752 5.02436484,8.20957661 C4.97361231,8.33580729 5.00354332,8.47895504 5.10114425,8.57395311 L11.7640289,15.2368378 C11.8941634,15.3669722 12.104981,15.3669722 12.2351155,15.2368378 L18.8980002,8.57395311 C18.9969023,8.47895504 19.0268334,8.33190317 18.9747796,8.20567282 C18.9214245,8.07944214 18.7964954,7.99745768 18.6585527,8 Z" id="Down-Arrow-Thin" stroke-width="1"></path></svg>
-                
-            </div>
-              <div class="dropdown-menu" style="position: relative;" aria-labelledby="dropdownMenuButton">
-                <h5>${defaultTitle}</h5>
-                <div  class="search-option" class="d-flex ">
-                    <div class="search-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.0799 1.43994C5.56867 1.43994 1.91992 5.08869 1.91992 9.59994C1.91992 14.1112 5.56867 17.7599 10.0799 17.7599C11.6905 17.7599 13.1812 17.2874 14.4449 16.4849L20.3399 22.3799L22.3799 20.3399L16.5599 14.5349C17.6062 13.1624 18.2399 11.4618 18.2399 9.59994C18.2399 5.08869 14.5912 1.43994 10.0799 1.43994ZM10.0799 3.35994C13.5355 3.35994 16.3199 6.14432 16.3199 9.59994C16.3199 13.0556 13.5355 15.8399 10.0799 15.8399C6.6243 15.8399 3.83992 13.0556 3.83992 9.59994C3.83992 6.14432 6.6243 3.35994 10.0799 3.35994Z" fill="#888"></path></svg>
-                    </div>
-                    <input type="text" data-search="${filter}">
-                </div>
-                <div class="dropdown-list-items">
-                    ${list}
-                </div>
-                <div class="button-group">
-                    <button class="btn btn-primary cancel-btn">Hủy</button>
-                    <button class="btn btn-primary search-btn">Tìm Kiếm</button>
-                </div>
-              </div>
-              `
-    createSearch()
-}
-
-const handleSearch = (e) => {
-    const att = e.target.getAttribute('data-search')
-    document.querySelectorAll(`[data-${att}]`).forEach(
-        element => {
-            element.parentNode.childNodes[2].textContent
-                .toLocaleLowerCase().includes(
-                    e.target.value.toLocaleLowerCase()
-                )
-                ? element.parentNode.style.display = ''
-                : element.parentNode.style.display = 'none'
-        }
-    )
-}
-
-const createSearch = () => {
-    document.querySelectorAll('[data-search]').forEach(
-        search => search.addEventListener('input', handleSearch)
-    )
-}
 
 const renderJob = (jobs) => {
     const root = document.querySelector('.jobs__block')
@@ -289,7 +283,7 @@ const renderJob = (jobs) => {
       </div>
       <div class="job__item__info">
         <div class="job__title">
-          <a href="" target="_blank">${job.jobTitle}</a>
+          <a href="https://www.vietnamworks.com/${job.alias}-${job.jobId}-jv" target="_blank">${job.jobTitle}</a>
         </div>
         <div class="job__company__name">
           <a href="" target="_blank">${job.companyName}</a>
@@ -299,17 +293,22 @@ const renderJob = (jobs) => {
       </div>
     </div>`
     })
-    root.innerHTML = data
+    root.innerHTML = data ? data : 'Không tìm thấy việc làm theo yêu cầu của bạn'
+    createDots()
+
 
 
     document.querySelector('.sectionBlock__title').querySelector('strong')
-        .innerText = filterForm['jobs'][0] ? jobsRes[0].filter(job => job.jobFunctionV3Id == filterForm['jobs'][0])[0].jobFunctionV3NameVI
-            : filterForm['groupJob'][0] ? groupJobRes[0].filter(job => job.groupJobFunctionV3Id == filterForm['groupJob'][0])[0].groupJobFunctionV3NameVI
-                : filterForm['locations'][0] ? locationsRes[0].filter(locations => locations.cityId == filterForm['locations'][0])[0].cityNameVI
-                    : ''
+        .innerText = 'Thực tập sinh/Mới tốt nghiệp'
+        // :
+        //  filterForm['jobs'][0] ? jobsRes.filter(job => job.jobFunctionV3Id == filterForm['jobs'][0])[0].jobFunctionV3NameVI
+        //     : filterForm['groupJob'][0] ? groupJobRes.filter(job => job.groupJobFunctionV3Id == filterForm['groupJob'][0])[0].groupJobFunctionV3NameVI
+        //         : filterForm['locations'][0] ? locationsRes.filter(locations => locations.cityId == filterForm['locations'][0])[0].cityNameVI
+        //             : ''
 
 
-    createDots()
+
+    dragalbleSlide()
 }
 
 
@@ -318,18 +317,18 @@ const checkThis = (x) => {
     const checkBox = x.children[0]
     checkBox.checked = checkBox.checked === true ? false : true
 
-    
-    const isGroupJob = checkBox.getAttribute('data-groupJob') 
-    const isJobs = checkBox.getAttribute('data-jobs') 
+
+    const isGroupJob = checkBox.getAttribute('data-groupJob')
+    const isJobs = checkBox.getAttribute('data-jobs')
     const isLocations = checkBox.getAttribute('data-locations')
 
 
     isGroupJob ? filterForm.jobs = [] : []
     isGroupJob && document.querySelector('input[data-jobs]:checked')
         ? document.querySelector('input[data-jobs]:checked').checked = false : false
-    const group = groupJobRes[0].filter(job => job.groupJobFunctionV3Id == checkBox.value)
-    const jobs = jobsRes[0].filter(job => job.jobFunctionV3Id == checkBox.value)
-    const location = locationsRes[0].filter(job => job.cityId == checkBox.value)
+    const group = groupJobRes.filter(job => job.groupJobFunctionV3Id == checkBox.value)
+    const jobs = jobsRes.filter(job => job.jobFunctionV3Id == checkBox.value)
+    const location = locationsRes.filter(job => job.cityId == checkBox.value)
     isGroupJob && checkBox.checked
         ? document.querySelectorAll('[data-jobs]').forEach(
             jobs => {
@@ -340,18 +339,16 @@ const checkThis = (x) => {
         )
         : ''
 
-
+    isGroupJob ? document.querySelector('#filter-jobs').innerHTML = 'Tất cả lĩnh vực' : ''
     isGroupJob ? document.querySelector('#filter-groupJob').innerHTML = group[0].groupJobFunctionV3NameVI
-    : isJobs ?  document.querySelector('#filter-jobs').innerHTML = jobs[0].jobFunctionV3NameVI
-    : isLocations ? document.querySelector('#filter-locations').innerHTML = location[0].cityNameVI : ''
+        : isJobs ? document.querySelector('#filter-jobs').innerHTML = jobs[0].jobFunctionV3NameVI
+            : isLocations ? document.querySelector('#filter-locations').innerHTML = location[0].cityNameVI : ''
 }
 
 
-// const slider = ()=>{
-
 const sliderBar = document.querySelector('.slider-bar')
 const slide = document.querySelector('.jobs__block')
-let jobsItemWith 
+let jobsItemWith
 const dotsSlider = sliderBar.querySelector('.dots')
 
 
@@ -359,8 +356,11 @@ const dotsSlider = sliderBar.querySelector('.dots')
 let curSlide = 0;
 let maxSlide = 0
 const createDots = function () {
-    jobsItemWith = slide.getElementsByClassName('job__item').item(0).offsetWidth  
-    maxSlide = (currentJobsTotal / 3 ).toFixed(0);
+    jobsItemWith = slide.querySelector('.job__item') ? slide.querySelector('.job__item').offsetWidth : 0
+    const containerSize = document.querySelector('.container') ? document.querySelector('.container').offsetWidth : 0
+    maxSlide = (currentJobsTotal / 3).toFixed(0);
+    containerSize >= 1140 ? maxSlide -= 2 : containerSize >= 960 ? maxSlide -= 1 : maxSlide
+    maxSlide <= 0 ? maxSlide = 1 : maxSlide
     dotsSlider.innerHTML = ''
     for (let i = 0; i < maxSlide; i++) {
         dotsSlider.innerHTML +=
@@ -371,13 +371,15 @@ const createDots = function () {
 };
 
 const activateDot = function (slide) {
-    document
+    const dots = document
         .querySelectorAll('.dots__dot')
-        .forEach(dot => dot.classList.remove('dots__dot--active'));
 
-    document
+    dots ? dots.forEach(dot => dot.classList.remove('dots__dot--active')) : undefined
+
+    const dotActive = document
         .querySelector(`.dots__dot[data-slide="${slide}"]`)
-        .classList.add('dots__dot--active');
+
+    dotActive ? dotActive.classList.add('dots__dot--active') : undefined
 };
 
 
@@ -400,6 +402,9 @@ const nextSlide = function () {
 };
 
 const prevSlide = function () {
+    if (maxSlide === 0) {
+        return
+    }
     if (curSlide === 0) {
         curSlide = maxSlide - 1;
     } else {
@@ -417,7 +422,43 @@ const init = function () {
         : ''
 };
 init();
+// carousel is the default bootstrap carousel class
+let slideTouchStart = false;
+let slideTouchMove = false;
+let slideTouchEnd = false;
+function dragalbleSlide() {
+    let isDraging = false;
+    let dragStartX = 0, dragEndX = 0;
+    let prevPageX;
+    if (!slideTouchMove) {
+        slide.addEventListener('touchmove', function (e) {
+            e.preventDefault()
+            let porsitionDiff = e.touches[0].pageX - dragStartX
+            slide.style.transform = `translateX(${prevPageX + porsitionDiff}px)`
+        })
+        slideTouchMove = true;
+    }
 
-// }
+    if (!slideTouchStart) {
+        slide.addEventListener('touchstart', function (e) {
+            isDraging = true
+            prevPageX = +slide.style.transform.replace(`translateX(`, '').replace(`px)`, '')
+            dragStartX = e.touches[0].pageX
+        })
+        slideTouchStart = true;
 
-// slider()
+    }
+
+    if (!slideTouchEnd) {
+        slide.addEventListener('touchend', e => {
+            slideTouchEnd = true
+            dragEndX = e.changedTouches[0].pageX
+            if (dragStartX - dragEndX < 0 && isDraging) {
+                prevSlide()
+            } else if (dragStartX - dragEndX >= 0 && isDraging) {
+                nextSlide()
+            }
+        })
+        slideTouchEnd = true
+    }
+}

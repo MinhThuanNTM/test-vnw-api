@@ -1,17 +1,5 @@
 [
     {
-        "groupJobFunctionV3Id": 0,
-        "groupJobFunctionV3Name": "",
-        "groupJobFunctionV3NameVI": "",
-        "children": [
-            0,
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
         "groupJobFunctionV3Id": 3,
         "groupJobFunctionV3Name": "Agriculture/Livestock/Fishery",
         "groupJobFunctionV3NameVI": "Nông/Lâm/Ngư Nghiệp",
